@@ -7,7 +7,9 @@
 int timer(int seconds){
     sleep(seconds);
     return 0;
-} 
+}
+
+        
 
 //Normal question functions
 int function_western(int points){
@@ -539,7 +541,7 @@ int function_northern_easy (int points){
 
 //Ask the user if they would like easy or normal mode
 int game_main (void) {
-    int game_type = 0;
+    int game_type;
   
     system ("clear");//stdlib.h
     printf("Would you like to play the easy or normal mode of the College Mascot Trivia Game?\n");
@@ -727,3 +729,4 @@ int main(){
   }
     return 0;
 }
+
